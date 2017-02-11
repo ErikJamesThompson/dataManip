@@ -1,0 +1,83 @@
+body, html{
+  height:100%;
+}
+body{
+  background: url("http://www.publicdomainpictures.net/pictures/130000/velka/disco-ball-and-disco-floor.jpg");
+  margin: 0px;
+  background-color:#444;
+  font-size: 18px;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+body, a:link, a:visited, a:active{
+  color: lightblue;
+  font-family: Helvetica;
+  text-decoration: none;
+}
+
+
+.title, .addDancerButton{
+  padding:5px 5px;
+  float:right;
+  border: 5px solid blue;
+}
+.title, .addEffectButton{
+  padding:5px 12px;
+  float:left;
+  border: 5px solid green;
+}
+
+.topbar{
+  height:42px;
+  background-color: black;
+}
+.title{
+  background-color: black;
+}
+.dancer{
+  border:10px solid red;
+  border-radius:10px;
+  position:absolute;
+}
+.blinky{
+  border: hidden;
+  width: 175px;
+  height: 175px;
+}
+.jumpy{
+  max-width: 50px;
+  height: 50px;
+  border: hidden;
+}
+
+.color {
+  border: 25px solid blue;
+  border-radius: 25px;
+}
+
+.fire {
+  padding:5px 12px;
+  float:left;
+  border: 5px solid green;
+  background-color: red;
+  border-color: orange;
+}
+
+.cool {
+  padding:5px 12px;
+  float:left;
+  background-color: blue;
+  border: 5px solid green;
+}
+
+img, .jumpy {
+  max-width: 150px;
+  height: 150px;
+}
+
+.gif {
+  background: url('src/leftShark.gif');
+  width: 350px;
+  height: 350px;
+  border: hidden;
+}
