@@ -1,0 +1,827 @@
+{
+  "meta" : {
+    "view" : {
+      "id" : "98ix-2iqy",
+      "name" : "Payment - State",
+      "averageRating" : 0,
+      "category" : "Hospital Compare",
+      "createdAt" : 1416535464,
+      "description" : "Payment measures – state data. This data set includes state-level data for the payment measures associated with a 30-day episode of care for heart attack, heart failure, and pneumonia patients.",
+      "displayType" : "table",
+      "downloadCount" : 2819,
+      "hideFromCatalog" : false,
+      "hideFromDataJson" : false,
+      "indexUpdatedAt" : 1482167328,
+      "newBackend" : false,
+      "numberOfComments" : 0,
+      "oid" : 25100856,
+      "provenance" : "official",
+      "publicationAppendEnabled" : false,
+      "publicationDate" : 1482167263,
+      "publicationGroup" : 1900682,
+      "publicationStage" : "published",
+      "rowsUpdatedAt" : 1482154951,
+      "rowsUpdatedBy" : "wn9i-fkbr",
+      "tableId" : 13956637,
+      "totalTimesRated" : 0,
+      "viewCount" : 1819,
+      "viewLastModified" : 1482167263,
+      "viewType" : "tabular",
+      "columns" : [ {
+        "id" : -1,
+        "name" : "sid",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":sid",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "id",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":id",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "position",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":position",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "created_at",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":created_at",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "created_meta",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":created_meta",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "updated_at",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":updated_at",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "updated_meta",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":updated_meta",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "meta",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":meta",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : 282322864,
+        "name" : "State",
+        "dataTypeName" : "text",
+        "fieldName" : "state",
+        "position" : 1,
+        "renderTypeName" : "text",
+        "tableColumnId" : 22990194,
+        "width" : 113,
+        "cachedContents" : {
+          "largest" : "WY",
+          "non_null" : 168,
+          "null" : 0,
+          "top" : [ {
+            "item" : "PA",
+            "count" : 20
+          }, {
+            "item" : "PR",
+            "count" : 19
+          }, {
+            "item" : "RI",
+            "count" : 18
+          }, {
+            "item" : "SC",
+            "count" : 17
+          }, {
+            "item" : "SD",
+            "count" : 16
+          }, {
+            "item" : "TN",
+            "count" : 15
+          }, {
+            "item" : "TX",
+            "count" : 14
+          }, {
+            "item" : "UT",
+            "count" : 13
+          }, {
+            "item" : "VA",
+            "count" : 12
+          }, {
+            "item" : "VI",
+            "count" : 11
+          }, {
+            "item" : "VT",
+            "count" : 10
+          }, {
+            "item" : "WA",
+            "count" : 9
+          }, {
+            "item" : "WI",
+            "count" : 8
+          }, {
+            "item" : "WV",
+            "count" : 7
+          }, {
+            "item" : "WY",
+            "count" : 6
+          } ],
+          "smallest" : "AK"
+        },
+        "format" : { }
+      }, {
+        "id" : 282322865,
+        "name" : "Measure name",
+        "dataTypeName" : "text",
+        "fieldName" : "measure_name",
+        "position" : 2,
+        "renderTypeName" : "text",
+        "tableColumnId" : 22990195,
+        "width" : 244,
+        "cachedContents" : {
+          "largest" : "Payment for pneumonia patients",
+          "non_null" : 168,
+          "null" : 0,
+          "top" : [ {
+            "item" : "Payment for heart attack patients",
+            "count" : 20
+          }, {
+            "item" : "Payment for heart failure patients",
+            "count" : 19
+          }, {
+            "item" : "Payment for pneumonia patients",
+            "count" : 18
+          } ],
+          "smallest" : "Payment for heart attack patients"
+        },
+        "format" : {
+          "align" : "left"
+        }
+      }, {
+        "id" : 282322866,
+        "name" : "Measure ID",
+        "dataTypeName" : "text",
+        "fieldName" : "measure_id",
+        "position" : 3,
+        "renderTypeName" : "text",
+        "tableColumnId" : 22990196,
+        "width" : 150,
+        "cachedContents" : {
+          "largest" : "PAYM_30_PN",
+          "non_null" : 168,
+          "null" : 0,
+          "top" : [ {
+            "item" : "PAYM_30_AMI",
+            "count" : 20
+          }, {
+            "item" : "PAYM_30_HF",
+            "count" : 19
+          }, {
+            "item" : "PAYM_30_PN",
+            "count" : 18
+          } ],
+          "smallest" : "PAYM_30_AMI"
+        },
+        "format" : { }
+      }, {
+        "id" : 282322867,
+        "name" : "Number less than national payment",
+        "dataTypeName" : "text",
+        "fieldName" : "number_of_less_than_national_payment",
+        "position" : 4,
+        "renderTypeName" : "text",
+        "tableColumnId" : 22990197,
+        "width" : 235,
+        "cachedContents" : {
+          "largest" : "Not Available",
+          "non_null" : 168,
+          "null" : 0,
+          "top" : [ {
+            "item" : "0",
+            "count" : 20
+          }, {
+            "item" : "4",
+            "count" : 19
+          }, {
+            "item" : "11",
+            "count" : 18
+          }, {
+            "item" : "5",
+            "count" : 17
+          }, {
+            "item" : "18",
+            "count" : 16
+          }, {
+            "item" : "25",
+            "count" : 15
+          }, {
+            "item" : "2",
+            "count" : 14
+          }, {
+            "item" : "9",
+            "count" : 13
+          }, {
+            "item" : "1",
+            "count" : 12
+          }, {
+            "item" : "10",
+            "count" : 11
+          }, {
+            "item" : "8",
+            "count" : 10
+          }, {
+            "item" : "34",
+            "count" : 9
+          }, {
+            "item" : "3",
+            "count" : 8
+          }, {
+            "item" : "7",
+            "count" : 7
+          }, {
+            "item" : "6",
+            "count" : 6
+          }, {
+            "item" : "30",
+            "count" : 5
+          }, {
+            "item" : "22",
+            "count" : 4
+          }, {
+            "item" : "19",
+            "count" : 3
+          }, {
+            "item" : "20",
+            "count" : 2
+          }, {
+            "item" : "12",
+            "count" : 1
+          } ],
+          "smallest" : "0"
+        },
+        "format" : {
+          "precisionStyle" : "standard",
+          "noCommas" : "false",
+          "align" : "right"
+        }
+      }, {
+        "id" : 282322868,
+        "name" : "Number same as national payment",
+        "dataTypeName" : "text",
+        "fieldName" : "number_of_same_as_national_payment",
+        "position" : 5,
+        "renderTypeName" : "text",
+        "tableColumnId" : 22990198,
+        "width" : 234,
+        "cachedContents" : {
+          "largest" : "Not Available",
+          "non_null" : 168,
+          "null" : 0,
+          "top" : [ {
+            "item" : "4",
+            "count" : 20
+          }, {
+            "item" : "0",
+            "count" : 19
+          }, {
+            "item" : "Not Available",
+            "count" : 18
+          }, {
+            "item" : "26",
+            "count" : 17
+          }, {
+            "item" : "13",
+            "count" : 16
+          }, {
+            "item" : "18",
+            "count" : 15
+          }, {
+            "item" : "19",
+            "count" : 14
+          }, {
+            "item" : "10",
+            "count" : 13
+          }, {
+            "item" : "7",
+            "count" : 12
+          }, {
+            "item" : "137",
+            "count" : 11
+          }, {
+            "item" : "178",
+            "count" : 10
+          }, {
+            "item" : "206",
+            "count" : 9
+          }, {
+            "item" : "12",
+            "count" : 8
+          }, {
+            "item" : "21",
+            "count" : 7
+          }, {
+            "item" : "23",
+            "count" : 6
+          }, {
+            "item" : "51",
+            "count" : 5
+          }, {
+            "item" : "64",
+            "count" : 4
+          }, {
+            "item" : "62",
+            "count" : 3
+          }, {
+            "item" : "1",
+            "count" : 2
+          }, {
+            "item" : "2",
+            "count" : 1
+          } ],
+          "smallest" : "0"
+        },
+        "format" : {
+          "precisionStyle" : "standard",
+          "noCommas" : "false",
+          "align" : "right"
+        }
+      }, {
+        "id" : 282322869,
+        "name" : "Number greater than national payment",
+        "dataTypeName" : "text",
+        "fieldName" : "number_of_greater_than_national_payment",
+        "position" : 6,
+        "renderTypeName" : "text",
+        "tableColumnId" : 22990199,
+        "width" : 234,
+        "cachedContents" : {
+          "largest" : "Not Available",
+          "non_null" : 168,
+          "null" : 0,
+          "top" : [ {
+            "item" : "0",
+            "count" : 20
+          }, {
+            "item" : "2",
+            "count" : 19
+          }, {
+            "item" : "3",
+            "count" : 18
+          }, {
+            "item" : "4",
+            "count" : 17
+          }, {
+            "item" : "10",
+            "count" : 16
+          }, {
+            "item" : "17",
+            "count" : 15
+          }, {
+            "item" : "5",
+            "count" : 14
+          }, {
+            "item" : "33",
+            "count" : 13
+          }, {
+            "item" : "83",
+            "count" : 12
+          }, {
+            "item" : "63",
+            "count" : 11
+          }, {
+            "item" : "1",
+            "count" : 10
+          }, {
+            "item" : "13",
+            "count" : 9
+          }, {
+            "item" : "7",
+            "count" : 8
+          }, {
+            "item" : "21",
+            "count" : 7
+          }, {
+            "item" : "79",
+            "count" : 6
+          }, {
+            "item" : "35",
+            "count" : 5
+          }, {
+            "item" : "18",
+            "count" : 4
+          }, {
+            "item" : "29",
+            "count" : 3
+          }, {
+            "item" : "12",
+            "count" : 2
+          }, {
+            "item" : "27",
+            "count" : 1
+          } ],
+          "smallest" : "0"
+        },
+        "format" : {
+          "precisionStyle" : "standard",
+          "noCommas" : "false",
+          "align" : "right"
+        }
+      }, {
+        "id" : 282322870,
+        "name" : "Number of Hospitals Too Few",
+        "dataTypeName" : "text",
+        "fieldName" : "number_of_hospitals_too_few",
+        "position" : 7,
+        "renderTypeName" : "text",
+        "tableColumnId" : 22990200,
+        "width" : 252,
+        "cachedContents" : {
+          "largest" : "Not Available",
+          "non_null" : 168,
+          "null" : 0,
+          "top" : [ {
+            "item" : "14",
+            "count" : 20
+          }, {
+            "item" : "8",
+            "count" : 19
+          }, {
+            "item" : "10",
+            "count" : 18
+          }, {
+            "item" : "9",
+            "count" : 17
+          }, {
+            "item" : "3",
+            "count" : 16
+          }, {
+            "item" : "1",
+            "count" : 15
+          }, {
+            "item" : "0",
+            "count" : 14
+          }, {
+            "item" : "24",
+            "count" : 13
+          }, {
+            "item" : "2",
+            "count" : 12
+          }, {
+            "item" : "6",
+            "count" : 11
+          }, {
+            "item" : "17",
+            "count" : 10
+          }, {
+            "item" : "5",
+            "count" : 9
+          }, {
+            "item" : "Not Available",
+            "count" : 8
+          }, {
+            "item" : "38",
+            "count" : 7
+          }, {
+            "item" : "54",
+            "count" : 6
+          }, {
+            "item" : "32",
+            "count" : 5
+          }, {
+            "item" : "11",
+            "count" : 4
+          }, {
+            "item" : "30",
+            "count" : 3
+          }, {
+            "item" : "52",
+            "count" : 2
+          }, {
+            "item" : "25",
+            "count" : 1
+          } ],
+          "smallest" : "0"
+        },
+        "format" : {
+          "precisionStyle" : "standard",
+          "noCommas" : "false",
+          "align" : "right"
+        }
+      }, {
+        "id" : 282322871,
+        "name" : "Footnote",
+        "dataTypeName" : "text",
+        "fieldName" : "footnote",
+        "position" : 8,
+        "renderTypeName" : "text",
+        "tableColumnId" : 22990201,
+        "width" : 196,
+        "cachedContents" : {
+          "largest" : "4 - Data suppressed by CMS for one or more quarters.",
+          "non_null" : 3,
+          "null" : 165,
+          "top" : [ {
+            "item" : "4 - Data suppressed by CMS for one or more quarters.",
+            "count" : 20
+          } ],
+          "smallest" : "4 - Data suppressed by CMS for one or more quarters."
+        },
+        "format" : { }
+      }, {
+        "id" : 282322872,
+        "name" : "Measure start date",
+        "dataTypeName" : "calendar_date",
+        "fieldName" : "measure_start_date",
+        "position" : 9,
+        "renderTypeName" : "calendar_date",
+        "tableColumnId" : 22990202,
+        "width" : 194,
+        "cachedContents" : {
+          "largest" : "2012-07-01T00:00:00",
+          "non_null" : 168,
+          "null" : 0,
+          "top" : [ {
+            "item" : "2012-07-01T00:00:00",
+            "count" : 20
+          } ],
+          "smallest" : "2012-07-01T00:00:00"
+        },
+        "format" : {
+          "view" : "date",
+          "align" : "left"
+        }
+      }, {
+        "id" : 282322873,
+        "name" : "Measure end date",
+        "dataTypeName" : "calendar_date",
+        "fieldName" : "measure_end_date",
+        "position" : 10,
+        "renderTypeName" : "calendar_date",
+        "tableColumnId" : 22990203,
+        "width" : 188,
+        "cachedContents" : {
+          "largest" : "2015-06-30T00:00:00",
+          "non_null" : 168,
+          "null" : 0,
+          "top" : [ {
+            "item" : "2015-06-30T00:00:00",
+            "count" : 20
+          } ],
+          "smallest" : "2015-06-30T00:00:00"
+        },
+        "format" : {
+          "view" : "date",
+          "align" : "left"
+        }
+      } ],
+      "grants" : [ {
+        "inherited" : false,
+        "type" : "viewer",
+        "flags" : [ "public" ]
+      } ],
+      "metadata" : {
+        "rdfSubject" : "0",
+        "custom_fields" : {
+          "Common Core" : {
+            "Contact Email" : "HospitalCompare@hsag.com",
+            "Contact Name" : "CMS",
+            "Program Code" : "009:078",
+            "Publisher" : "Centers for Medicare & Medicaid Services (CMS)",
+            "Bureau Code" : "009:38"
+          }
+        },
+        "availableDisplayTypes" : [ "table", "fatrow", "page" ],
+        "renderTypeConfig" : {
+          "visible" : {
+            "table" : true
+          }
+        }
+      },
+      "owner" : {
+        "id" : "drs7-75yr",
+        "displayName" : "cms",
+        "profileImageUrlLarge" : "/api/users/drs7-75yr/profile_images/LARGE",
+        "profileImageUrlMedium" : "/api/users/drs7-75yr/profile_images/THUMB",
+        "profileImageUrlSmall" : "/api/users/drs7-75yr/profile_images/TINY",
+        "roleName" : "administrator",
+        "screenName" : "cms",
+        "rights" : [ "create_datasets", "edit_others_datasets", "edit_sdp", "edit_site_theme", "moderate_comments", "manage_users", "chown_datasets", "edit_nominations", "approve_nominations", "feature_items", "federations", "manage_stories", "manage_approval", "change_configurations", "view_domain", "view_others_datasets", "edit_pages", "create_pages", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards", "create_dashboards", "manage_provenance", "create_story", "edit_story_title_desc", "create_story_copy", "delete_story", "manage_story_collaborators", "manage_story_visibility", "manage_story_public_version", "edit_story", "view_unpublished_story", "view_story", "view_all_dataset_status_logs", "use_data_connectors" ]
+      },
+      "query" : { },
+      "rights" : [ "read" ],
+      "tableAuthor" : {
+        "id" : "drs7-75yr",
+        "displayName" : "cms",
+        "profileImageUrlLarge" : "/api/users/drs7-75yr/profile_images/LARGE",
+        "profileImageUrlMedium" : "/api/users/drs7-75yr/profile_images/THUMB",
+        "profileImageUrlSmall" : "/api/users/drs7-75yr/profile_images/TINY",
+        "roleName" : "administrator",
+        "screenName" : "cms",
+        "rights" : [ "create_datasets", "edit_others_datasets", "edit_sdp", "edit_site_theme", "moderate_comments", "manage_users", "chown_datasets", "edit_nominations", "approve_nominations", "feature_items", "federations", "manage_stories", "manage_approval", "change_configurations", "view_domain", "view_others_datasets", "edit_pages", "create_pages", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards", "create_dashboards", "manage_provenance", "create_story", "edit_story_title_desc", "create_story_copy", "delete_story", "manage_story_collaborators", "manage_story_visibility", "manage_story_public_version", "edit_story", "view_unpublished_story", "view_story", "view_all_dataset_status_logs", "use_data_connectors" ]
+      },
+      "tags" : [ "hospital compare", "medicare payment" ],
+      "flags" : [ "default", "restorable", "restorePossibleForType" ]
+    }
+  },
+  "data" : [ [ 1, "D0775F31-CD74-44C4-80DD-B7E8CA063B14", 1, 1482154944, "391130", 1482154944, "391130", null, "AK", "Payment for heart attack patients", "PAYM_30_AMI", "0", "5", "0", "14", null, "2012-07-01T00:00:00", "2015-06-30T00:00:00" ]
+, [ 2, "BC87E4C3-F21A-4607-A7EC-6E3C2D6501B6", 2, 1482154944, "391130", 1482154944, "391130", null, "AK", "Payment for heart failure patients", "PAYM_30_HF", "4", "4", "0", "14", null, "2012-07-01T00:00:00", "2015-06-30T00:00:00" ]
+, [ 3, "4A9473CC-09EF-482A-85FF-E9EFBF753566", 3, 1482154944, "391130", 1482154944, "391130", null, "AK", "Payment for pneumonia patients", "PAYM_30_PN", "11", "3", "0", "8", null, "2012-07-01T00:00:00", "2015-06-30T00:00:00" ]
+, [ 4, "8C7737DD-0305-4212-AA7B-AA26CA585AD8", 4, 1482154944, "391130", 1482154944, "391130", null, "AL", "Payment for heart attack patients", "PAYM_30_AMI", "5", "36", "0", "46", null, "2012-07-01T00:00:00", "2015-06-30T00:00:00" ]
+, [ 5, "FBDC44DA-AD5B-4CEE-B931-3951A13A2783", 5, 1482154944, "391130", 1482154944, "391130", null, "AL", "Payment for heart failure patients", "PAYM_30_HF", "18", "58", "2", "14", null, "2012-07-01T00:00:00", "2015-06-30T00:00:00" ]
+, [ 6, "2618D3F6-46F8-4C57-9FDA-9C624ABDEEAD", 6, 1482154944, "391130", 1482154944, "391130", null, "AL", "Payment for pneumonia patients", "PAYM_30_PN", "25", "55", "3", "10", null, "2012-07-01T00:00:00", "2015-06-30T00:00:00" ]
+, [ 7, "6BD100C8-CEEA-4244-98F3-B4F3A387CEF8", 7, 1482154944, "391130", 1482154944, "391130", null, "AR", "Payment for heart attack patients", "PAYM_30_AMI", "2", "23", "4", "42", null, "2012-07-01T00:00:00", "2015-06-30T00:00:00" ]
+, [ 8, "90CCA04E-A4AD-4AFE-85D3-857F072C6767", 8, 1482154944, "391130", 1482154944, "391130", null, "AR", "Payment for heart failure patients", "PAYM_30_HF", "4", "56", "4", "9", null, "2012-07-01T00:00:00", "2015-06-30T00:00:00" ]
+, [ 9, "02026E83-A6BB-4391-9F58-1D934664D998", 9, 1482154944, "391130", 1482154944, "391130", null, "AR", "Payment for pneumonia patients", "PAYM_30_PN", "9", "52", "10", "3", null, "2012-07-01T00:00:00", "2015-06-30T00:00:00" ]
+, [ 10, "213CAF64-40AC-4750-B3C1-1DB1EA6335B1", 10, 1482154944, "391130", 1482154944, "391130", null, "AS", "Payment for heart attack patients", "PAYM_30_AMI", "0", "0", "0", "1", null, "2012-07-01T00:00:00", "2015-06-30T00:00:00" ]
+, [ 11, "75166155-C800-4775-8D19-9FD6D0BB7CAB", 11, 1482154944, "391130", 1482154944, "391130", null, "AS", "Payment for heart failure patients", "PAYM_30_HF", "0", "0", "0", "1", null, "2012-07-01T00:00:00", "2015-06-30T00:00:00" ]
+, [ 12, "C671F4D1-212C-485E-927C-428C092860AF", 12, 1482154944, "391130", 1482154944, "391130", null, "AS", "Payment for pneumonia patients", "PAYM_30_PN", "1", "0", "0", "0", null, "2012-07-01T00:00:00", "2015-06-30T00:00:00" ]
+, [ 13, "74D908E8-FB9A-4F25-B892-5A83184E98E4", 13, 1482154944, "391130", 1482154944, "391130", null, "AZ", "Payment for heart attack patients", "PAYM_30_AMI", "2", "40", "4", "20", null, "2012-07-01T00:00:00", "2015-06-30T00:00:00" ]
+, [ 14, "B8C98DBA-883E-4299-AE64-EB68E14B92AA", 14, 1482154944, "391130", 1482154944, "391130", null, "AZ", "Payment for heart failure patients", "PAYM_30_HF", "4", "29", "17", "22", null, "2012-07-01T00:00:00", "2015-06-30T00:00:00" ]
+, [ 15, "DD30BAEF-2CE0-47B3-81A1-D7FBE7A454F4", 15, 1482154944, "391130", 1482154944, "391130", null, "AZ", "Payment for pneumonia patients", "PAYM_30_PN", "10", "49", "5", "10", null, "2012-07-01T00:00:00", "2015-06-30T00:00:00" ]
+, [ 16, "68B86C3F-4052-478D-8EB1-AC138749D363", 16, 1482154944, "391130", 1482154944, "391130", null, "CA", "Payment for heart attack patients", "PAYM_30_AMI", "8", "166", "33", "108", null, "2012-07-01T00:00:00", "2015-06-30T00:00:00" ]
+, [ 17, "9261EAA4-E181-4A3B-BB91-F0EA2FBEFF1F", 17, 1482154944, "391130", 1482154944, "391130", null, "CA", "Payment for heart failure patients", "PAYM_30_HF", "18", "163", "83", "67", null, "2012-07-01T00:00:00", "2015-06-30T00:00:00" ]
+, [ 18, "22E43E51-4DD0-42F9-99B3-EBE732622998", 18, 1482154944, "391130", 1482154944, "391130", null, "CA", "Payment for pneumonia patients", "PAYM_30_PN", "34", "176", "63", "61", null, "2012-07-01T00:00:00", "2015-06-30T00:00:00" ]
+, [ 19, "209ACE3C-E03C-48E9-B336-6571295D3D17", 19, 1482154944, "391130", 1482154944, "391130", null, "CO", "Payment for heart attack patients", "PAYM_30_AMI", "2", "28", "1", "36", null, "2012-07-01T00:00:00", "2015-06-30T00:00:00" ]
+, [ 20, "545967C3-B011-42F1-A5CB-82797CF15A8D", 20, 1482154944, "391130", 1482154944, "391130", null, "CO", "Payment for heart failure patients", "PAYM_30_HF", "1", "46", "2", "24", null, "2012-07-01T00:00:00", "2015-06-30T00:00:00" ]
+, [ 21, "CC9EE1E5-8B51-4A8D-90FF-0E82EDDA6B54", 21, 1482154944, "391130", 1482154944, "391130", null, "CO", "Payment for pneumonia patients", "PAYM_30_PN", "8", "52", "2", "12", null, "2012-07-01T00:00:00", "2015-06-30T00:00:00" ]
+, [ 22, "4830C39B-C8AE-4B54-A94F-BCA73726738C", 22, 1482154944, "391130", 1482154944, "391130", null, "CT", "Payment for heart attack patients", "PAYM_30_AMI", "0", "24", "4", "2", null, "2012-07-01T00:00:00", "2015-06-30T00:00:00" ]
+, [ 23, "BCD8A269-2C07-44D9-8649-D23430CBC1B4", 23, 1482154944, "391130", 1482154944, "391130", null, "CT", "Payment for heart failure patients", "PAYM_30_HF", "0", "17", "13", "1", null, "2012-07-01T00:00:00", "2015-06-30T00:00:00" ]
+, [ 24, "CFFE7DDD-3E2B-49AF-89AE-248298343930", 24, 1482154944, "391130", 1482154944, "391130", null, "CT", "Payment for pneumonia patients", "PAYM_30_PN", "1", "23", "7", "0", null, "2012-07-01T00:00:00", "2015-06-30T00:00:00" ]
+, [ 25, "F277D90C-656F-442E-AB07-ECA426368BCA", 25, 1482154944, "391130", 1482154944, "391130", null, "DC", "Payment for heart attack patients", "PAYM_30_AMI", "0", "6", "1", "0", null, "2012-07-01T00:00:00", "2015-06-30T00:00:00" ]
+, [ 26, "4198BB4D-0A09-4FFE-A79C-E11970714B8A", 26, 1482154944, "391130", 1482154944, "391130", null, "DC", "Payment for heart failure patients", "PAYM_30_HF", "2", "4", "1", "0", null, "2012-07-01T00:00:00", "2015-06-30T00:00:00" ]
+, [ 27, "C1B1BBA8-7D83-47C2-A053-97B0E20E1065", 27, 1482154944, "391130", 1482154944, "391130", null, "DC", "Payment for pneumonia patients", "PAYM_30_PN", "0", "6", "1", "0", null, "2012-07-01T00:00:00", "2015-06-30T00:00:00" ]
+, [ 28, "E53BECEA-1FE5-4716-9B20-D2141DB8457C", 28, 1482154944, "391130", 1482154944, "391130", null, "DE", "Payment for heart attack patients", "PAYM_30_AMI", "0", "4", "2", "0", null, "2012-07-01T00:00:00", "2015-06-30T00:00:00" ]
+, [ 29, "87B5FBDE-0B98-4A22-958A-622ECA2FF711", 29, 1482154944, "391130", 1482154944, "391130", null, "DE", "Payment for heart failure patients", "PAYM_30_HF", "0", "4", "2", "0", null, "2012-07-01T00:00:00", "2015-06-30T00:00:00" ]
+, [ 30, "5B3ADCC8-F0DD-47C5-BE53-C0A8DF7F51D4", 30, 1482154944, "391130", 1482154944, "391130", null, "DE", "Payment for pneumonia patients", "PAYM_30_PN", "1", "2", "3", "0", null, "2012-07-01T00:00:00", "2015-06-30T00:00:00" ]
+, [ 31, "FCFF0156-696E-4CB8-BD18-04223DAFC468", 31, 1482154944, "391130", 1482154944, "391130", null, "FL", "Payment for heart attack patients", "PAYM_30_AMI", "3", "130", "21", "25", null, "2012-07-01T00:00:00", "2015-06-30T00:00:00" ]
+, [ 32, "941529B1-54C6-43D5-A264-CA25EDCACF6B", 32, 1482154944, "391130", 1482154944, "391130", null, "FL", "Payment for heart failure patients", "PAYM_30_HF", "3", "95", "79", "8", null, "2012-07-01T00:00:00", "2015-06-30T00:00:00" ]
+, [ 33, "CB8F436E-0D38-421C-AB9D-1E49B6A2E3A8", 33, 1482154944, "391130", 1482154944, "391130", null, "FL", "Payment for pneumonia patients", "PAYM_30_PN", "7", "138", "35", "6", null, "2012-07-01T00:00:00", "2015-06-30T00:00:00" ]
+, [ 34, "24C9A5A9-4F81-4E24-85DC-BED99C13AC56", 34, 1482154944, "391130", 1482154944, "391130", null, "GA", "Payment for heart attack patients", "PAYM_30_AMI", "6", "61", "0", "57", null, "2012-07-01T00:00:00", "2015-06-30T00:00:00" ]
+, [ 35, "516EE012-6CD4-47F2-982C-0F06C8B902C3", 35, 1482154944, "391130", 1482154944, "391130", null, "GA", "Payment for heart failure patients", "PAYM_30_HF", "30", "76", "3", "29", null, "2012-07-01T00:00:00", "2015-06-30T00:00:00" ]
+, [ 36, "A0517ED2-3BFD-4AA7-B89B-EED883B529B6", 36, 1482154944, "391130", 1482154944, "391130", null, "GA", "Payment for pneumonia patients", "PAYM_30_PN", "22", "98", "2", "17", null, "2012-07-01T00:00:00", "2015-06-30T00:00:00" ]
+, [ 37, "A994B383-6180-493E-89E0-F78A0F422AD2", 37, 1482154944, "391130", 1482154944, "391130", null, "GU", "Payment for heart attack patients", "PAYM_30_AMI", "1", "0", "0", "0", null, "2012-07-01T00:00:00", "2015-06-30T00:00:00" ]
+, [ 38, "74C42CA6-26B6-4B49-97C9-4BDFB7800C94", 38, 1482154944, "391130", 1482154944, "391130", null, "GU", "Payment for heart failure patients", "PAYM_30_HF", "1", "0", "0", "0", null, "2012-07-01T00:00:00", "2015-06-30T00:00:00" ]
+, [ 39, "B22E2957-205C-4015-B36A-D87EDA7D2302", 39, 1482154944, "391130", 1482154944, "391130", null, "GU", "Payment for pneumonia patients", "PAYM_30_PN", "1", "0", "0", "0", null, "2012-07-01T00:00:00", "2015-06-30T00:00:00" ]
+, [ 40, "2F200CFD-1ED8-42AC-9FEF-96FC67794962", 40, 1482154944, "391130", 1482154944, "391130", null, "HI", "Payment for heart attack patients", "PAYM_30_AMI", "3", "7", "0", "3", null, "2012-07-01T00:00:00", "2015-06-30T00:00:00" ]
+, [ 41, "3703808B-32EE-4C1C-A1C1-EBE52B046E98", 41, 1482154944, "391130", 1482154944, "391130", null, "HI", "Payment for heart failure patients", "PAYM_30_HF", "2", "10", "0", "3", null, "2012-07-01T00:00:00", "2015-06-30T00:00:00" ]
+, [ 42, "6B99637D-B06F-48F0-9434-83F44877D73C", 42, 1482154944, "391130", 1482154944, "391130", null, "HI", "Payment for pneumonia patients", "PAYM_30_PN", "4", "9", "0", "6", null, "2012-07-01T00:00:00", "2015-06-30T00:00:00" ]
+, [ 43, "9FF2F4DD-D879-4808-AD0D-4DDD18A886D4", 43, 1482154944, "391130", 1482154944, "391130", null, "IA", "Payment for heart attack patients", "PAYM_30_AMI", "3", "25", "1", "79", null, "2012-07-01T00:00:00", "2015-06-30T00:00:00" ]
+, [ 44, "B30B1E7F-1477-4E8C-BFCB-347CB31A2F07", 44, 1482154944, "391130", 1482154944, "391130", null, "IA", "Payment for heart failure patients", "PAYM_30_HF", "10", "69", "5", "32", null, "2012-07-01T00:00:00", "2015-06-30T00:00:00" ]
+, [ 45, "DF068814-3C18-4CC3-A1BE-719FD07B339D", 45, 1482154944, "391130", 1482154944, "391130", null, "IA", "Payment for pneumonia patients", "PAYM_30_PN", "19", "75", "17", "5", null, "2012-07-01T00:00:00", "2015-06-30T00:00:00" ]
+, [ 46, "A5B401AB-C90C-4CA4-AC9C-5332A8463031", 46, 1482154944, "391130", 1482154944, "391130", null, "ID", "Payment for heart attack patients", "PAYM_30_AMI", "1", "8", "0", "24", null, "2012-07-01T00:00:00", "2015-06-30T00:00:00" ]
+, [ 47, "8042F5B4-5EB2-445C-A62F-589AD078C439", 47, 1482154944, "391130", 1482154944, "391130", null, "ID", "Payment for heart failure patients", "PAYM_30_HF", "1", "18", "1", "19", null, "2012-07-01T00:00:00", "2015-06-30T00:00:00" ]
+, [ 48, "56A16251-6F2F-4E62-914D-EDC05130A138", 48, 1482154944, "391130", 1482154944, "391130", null, "ID", "Payment for pneumonia patients", "PAYM_30_PN", "8", "21", "2", "8", null, "2012-07-01T00:00:00", "2015-06-30T00:00:00" ]
+, [ 49, "CBFF8E02-40D5-4465-8D09-4AE7B15066D6", 49, 1482154944, "391130", 1482154944, "391130", null, "IL", "Payment for heart attack patients", "PAYM_30_AMI", "2", "90", "18", "66", null, "2012-07-01T00:00:00", "2015-06-30T00:00:00" ]
+, [ 50, "12B1845C-84E4-463C-83FA-7551BC68FB40", 50, 1482154944, "391130", 1482154944, "391130", null, "IL", "Payment for heart failure patients", "PAYM_30_HF", "20", "120", "29", "9", null, "2012-07-01T00:00:00", "2015-06-30T00:00:00" ]
+, [ 51, "9ACD15B0-BBB3-4BE7-8359-0681ADC914E7", 51, 1482154944, "391130", 1482154944, "391130", null, "IL", "Payment for pneumonia patients", "PAYM_30_PN", "18", "134", "21", "5", null, "2012-07-01T00:00:00", "2015-06-30T00:00:00" ]
+, [ 52, "EE5ED17E-DEFB-41B9-88BD-1C2A27EBD443", 52, 1482154944, "391130", 1482154944, "391130", null, "IN", "Payment for heart attack patients", "PAYM_30_AMI", "5", "57", "5", "48", null, "2012-07-01T00:00:00", "2015-06-30T00:00:00" ]
+, [ 53, "F9830769-0DAA-414E-AE11-5E8DA0676C84", 53, 1482154944, "391130", 1482154944, "391130", null, "IN", "Payment for heart failure patients", "PAYM_30_HF", "3", "93", "13", "10", null, "2012-07-01T00:00:00", "2015-06-30T00:00:00" ]
+, [ 54, "D1EA706B-5B29-44CC-8AE2-1C4D6C25D53B", 54, 1482154944, "391130", 1482154944, "391130", null, "IN", "Payment for pneumonia patients", "PAYM_30_PN", "9", "91", "12", "7", null, "2012-07-01T00:00:00", "2015-06-30T00:00:00" ]
+, [ 55, "FF76F7FC-7985-46EB-A968-E0DA0EB2B671", 55, 1482154944, "391130", 1482154944, "391130", null, "KS", "Payment for heart attack patients", "PAYM_30_AMI", "2", "19", "2", "92", null, "2012-07-01T00:00:00", "2015-06-30T00:00:00" ]
+, [ 56, "7C640FED-C445-4FAD-A9CA-FFB7D48BEF43", 56, 1482154944, "391130", 1482154944, "391130", null, "KS", "Payment for heart failure patients", "PAYM_30_HF", "4", "62", "7", "55", null, "2012-07-01T00:00:00", "2015-06-30T00:00:00" ]
+, [ 57, "643CC2C8-A4B8-492E-9AE6-A596D77F1C86", 57, 1482154944, "391130", 1482154944, "391130", null, "KS", "Payment for pneumonia patients", "PAYM_30_PN", "12", "72", "27", "17", null, "2012-07-01T00:00:00", "2015-06-30T00:00:00" ]
+, [ 58, "3FBDB846-001C-436D-8B3B-C40B7621F4F3", 58, 1482154944, "391130", 1482154944, "391130", null, "KY", "Payment for heart attack patients", "PAYM_30_AMI", "0", "43", "3", "47", null, "2012-07-01T00:00:00", "2015-06-30T00:00:00" ]
+, [ 59, "90E041E7-E5CF-4705-83FF-CE9B0B2BAD70", 59, 1482154944, "391130", 1482154944, "391130", null, "KY", "Payment for heart failure patients", "PAYM_30_HF", "10", "67", "6", "11", null, "2012-07-01T00:00:00", "2015-06-30T00:00:00" ]
+, [ 60, "86B82637-335C-4F3E-A63F-D61234FFAA5B", 60, 1482154944, "391130", 1482154944, "391130", null, "KY", "Payment for pneumonia patients", "PAYM_30_PN", "27", "59", "8", "0", null, "2012-07-01T00:00:00", "2015-06-30T00:00:00" ]
+, [ 61, "440CB096-EBF3-4AA8-8B23-E045F5258A01", 61, 1482154944, "391130", 1482154944, "391130", null, "LA", "Payment for heart attack patients", "PAYM_30_AMI", "9", "36", "1", "49", null, "2012-07-01T00:00:00", "2015-06-30T00:00:00" ]
+, [ 62, "06E2F81A-4972-4D4C-BB0C-C0F821519006", 62, 1482154944, "391130", 1482154944, "391130", null, "LA", "Payment for heart failure patients", "PAYM_30_HF", "9", "71", "7", "23", null, "2012-07-01T00:00:00", "2015-06-30T00:00:00" ]
+, [ 63, "CCAFF6E5-69DD-4FD5-8CC0-BD8E5BE6EB8C", 63, 1482154944, "391130", 1482154944, "391130", null, "LA", "Payment for pneumonia patients", "PAYM_30_PN", "11", "57", "26", "16", null, "2012-07-01T00:00:00", "2015-06-30T00:00:00" ]
+, [ 64, "F95946A4-F3AF-4C7D-AEFB-8A2CAD057889", 64, 1482154944, "391130", 1482154944, "391130", null, "MA", "Payment for heart attack patients", "PAYM_30_AMI", "3", "42", "8", "9", null, "2012-07-01T00:00:00", "2015-06-30T00:00:00" ]
+, [ 65, "8CB6EFA9-5AC9-4BFA-AFA0-B0C7E1232D52", 65, 1482154944, "391130", 1482154944, "391130", null, "MA", "Payment for heart failure patients", "PAYM_30_HF", "1", "44", "16", "2", null, "2012-07-01T00:00:00", "2015-06-30T00:00:00" ]
+, [ 66, "B6DD1CB4-3AD2-4477-8E37-EA537B31F408", 66, 1482154944, "391130", 1482154944, "391130", null, "MA", "Payment for pneumonia patients", "PAYM_30_PN", "4", "48", "10", "2", null, "2012-07-01T00:00:00", "2015-06-30T00:00:00" ]
+, [ 67, "81AD5E69-E396-4AB1-BB3C-601E06CE9B56", 67, 1482154944, "391130", 1482154944, "391130", null, "MD", "Payment for heart attack patients", "PAYM_30_AMI", "Not Available", "Not Available", "Not Available", "Not Available", "4 - Data suppressed by CMS for one or more quarters.", "2012-07-01T00:00:00", "2015-06-30T00:00:00" ]
+, [ 68, "FE764D65-C80D-48E9-9282-E909CBB31727", 68, 1482154944, "391130", 1482154944, "391130", null, "MD", "Payment for heart failure patients", "PAYM_30_HF", "Not Available", "Not Available", "Not Available", "Not Available", "4 - Data suppressed by CMS for one or more quarters.", "2012-07-01T00:00:00", "2015-06-30T00:00:00" ]
+, [ 69, "84A3BEFC-F4FE-46D9-B8C2-7EB855524950", 69, 1482154944, "391130", 1482154944, "391130", null, "MD", "Payment for pneumonia patients", "PAYM_30_PN", "Not Available", "Not Available", "Not Available", "Not Available", "4 - Data suppressed by CMS for one or more quarters.", "2012-07-01T00:00:00", "2015-06-30T00:00:00" ]
+, [ 70, "CCA0B297-4998-4FAF-9CAB-FD37E857457D", 70, 1482154944, "391130", 1482154944, "391130", null, "ME", "Payment for heart attack patients", "PAYM_30_AMI", "5", "21", "1", "9", null, "2012-07-01T00:00:00", "2015-06-30T00:00:00" ]
+, [ 71, "F3BD4ED0-F621-492F-9006-8FFE74D34B61", 71, 1482154944, "391130", 1482154944, "391130", null, "ME", "Payment for heart failure patients", "PAYM_30_HF", "7", "26", "2", "1", null, "2012-07-01T00:00:00", "2015-06-30T00:00:00" ]
+, [ 72, "79697184-6E7B-453A-ADAB-1A182A6FE37F", 72, 1482154944, "391130", 1482154944, "391130", null, "ME", "Payment for pneumonia patients", "PAYM_30_PN", "10", "26", "0", "0", null, "2012-07-01T00:00:00", "2015-06-30T00:00:00" ]
+, [ 73, "50A96A42-A7A3-42BE-ABCF-84D85B3E4EB8", 73, 1482154944, "391130", 1482154944, "391130", null, "MI", "Payment for heart attack patients", "PAYM_30_AMI", "6", "62", "4", "50", null, "2012-07-01T00:00:00", "2015-06-30T00:00:00" ]
+, [ 74, "F634E9F9-EE00-427D-959D-7B39EC4D1B6C", 74, 1482154944, "391130", 1482154944, "391130", null, "MI", "Payment for heart failure patients", "PAYM_30_HF", "10", "84", "18", "15", null, "2012-07-01T00:00:00", "2015-06-30T00:00:00" ]
+, [ 75, "7903CCDE-E6A6-44A9-9DFE-14B861339E06", 75, 1482154944, "391130", 1482154944, "391130", null, "MI", "Payment for pneumonia patients", "PAYM_30_PN", "18", "95", "9", "4", null, "2012-07-01T00:00:00", "2015-06-30T00:00:00" ]
+, [ 76, "EB0F7B3C-79E3-421C-A2D3-83B89C132F60", 76, 1482154944, "391130", 1482154944, "391130", null, "MN", "Payment for heart attack patients", "PAYM_30_AMI", "2", "23", "1", "86", null, "2012-07-01T00:00:00", "2015-06-30T00:00:00" ]
+, [ 77, "A29AC713-9E45-441D-BC7C-5DADA8087839", 77, 1482154944, "391130", 1482154944, "391130", null, "MN", "Payment for heart failure patients", "PAYM_30_HF", "5", "65", "2", "57", null, "2012-07-01T00:00:00", "2015-06-30T00:00:00" ]
+, [ 78, "91244534-91BF-4095-91F1-C38B0EB4A926", 78, 1482154944, "391130", 1482154944, "391130", null, "MN", "Payment for pneumonia patients", "PAYM_30_PN", "11", "79", "2", "38", null, "2012-07-01T00:00:00", "2015-06-30T00:00:00" ]
+, [ 79, "27893EB0-5B14-4A01-8FDD-2E49646DF60E", 79, 1482154944, "391130", 1482154944, "391130", null, "MO", "Payment for heart attack patients", "PAYM_30_AMI", "2", "48", "4", "51", null, "2012-07-01T00:00:00", "2015-06-30T00:00:00" ]
+, [ 80, "4FC3854B-916A-4E56-A567-066DC2E2E27F", 80, 1482154944, "391130", 1482154944, "391130", null, "MO", "Payment for heart failure patients", "PAYM_30_HF", "10", "73", "12", "19", null, "2012-07-01T00:00:00", "2015-06-30T00:00:00" ]
+, [ 81, "3A6266BD-2ED2-4FA6-8C1B-A7F0EF5A2DCC", 81, 1482154944, "391130", 1482154944, "391130", null, "MO", "Payment for pneumonia patients", "PAYM_30_PN", "18", "72", "17", "8", null, "2012-07-01T00:00:00", "2015-06-30T00:00:00" ]
+, [ 82, "A335FA54-5715-43C4-B38B-5C462DB6EBA1", 82, 1482154944, "391130", 1482154944, "391130", null, "MP", "Payment for heart attack patients", "PAYM_30_AMI", "1", "0", "0", "0", null, "2012-07-01T00:00:00", "2015-06-30T00:00:00" ]
+, [ 83, "CDFBD100-340C-4AD8-B756-CB3D43F038F8", 83, 1482154944, "391130", 1482154944, "391130", null, "MP", "Payment for heart failure patients", "PAYM_30_HF", "1", "0", "0", "0", null, "2012-07-01T00:00:00", "2015-06-30T00:00:00" ]
+, [ 84, "F5D15639-14D2-4B02-8945-8F41289270FC", 84, 1482154944, "391130", 1482154944, "391130", null, "MP", "Payment for pneumonia patients", "PAYM_30_PN", "1", "0", "0", "0", null, "2012-07-01T00:00:00", "2015-06-30T00:00:00" ]
+, [ 85, "69DCCE77-31E2-4430-BCB1-F59AC1A7F818", 85, 1482154944, "391130", 1482154944, "391130", null, "MS", "Payment for heart attack patients", "PAYM_30_AMI", "4", "17", "5", "54", null, "2012-07-01T00:00:00", "2015-06-30T00:00:00" ]
+, [ 86, "D294B6CF-FBE5-4396-B909-D1A0F58336D2", 86, 1482154944, "391130", 1482154944, "391130", null, "MS", "Payment for heart failure patients", "PAYM_30_HF", "9", "63", "5", "18", null, "2012-07-01T00:00:00", "2015-06-30T00:00:00" ]
+, [ 87, "A4929440-F9C4-4D52-B0E5-430002FE917F", 87, 1482154944, "391130", 1482154944, "391130", null, "MS", "Payment for pneumonia patients", "PAYM_30_PN", "15", "60", "12", "8", null, "2012-07-01T00:00:00", "2015-06-30T00:00:00" ]
+, [ 88, "E9007528-6094-42ED-9FDF-EB4A69C104B7", 88, 1482154944, "391130", 1482154944, "391130", null, "MT", "Payment for heart attack patients", "PAYM_30_AMI", "0", "9", "0", "32", null, "2012-07-01T00:00:00", "2015-06-30T00:00:00" ]
+, [ 89, "1B41641D-7A25-4758-9BD5-0109CC03182D", 89, 1482154944, "391130", 1482154944, "391130", null, "MT", "Payment for heart failure patients", "PAYM_30_HF", "5", "15", "0", "35", null, "2012-07-01T00:00:00", "2015-06-30T00:00:00" ]
+, [ 90, "B686E838-A23B-442B-93A7-D6467A5392B4", 90, 1482154944, "391130", 1482154944, "391130", null, "MT", "Payment for pneumonia patients", "PAYM_30_PN", "12", "26", "1", "21", null, "2012-07-01T00:00:00", "2015-06-30T00:00:00" ]
+, [ 91, "87FAC36B-01A6-4232-A3AB-82437E6A9A22", 91, 1482154944, "391130", 1482154944, "391130", null, "NC", "Payment for heart attack patients", "PAYM_30_AMI", "17", "55", "0", "32", null, "2012-07-01T00:00:00", "2015-06-30T00:00:00" ]
+, [ 92, "CE448EBC-4BCA-4580-AA4E-A47FAC23A366", 92, 1482154944, "391130", 1482154944, "391130", null, "NC", "Payment for heart failure patients", "PAYM_30_HF", "20", "76", "1", "11", null, "2012-07-01T00:00:00", "2015-06-30T00:00:00" ]
+, [ 93, "D541235B-702E-4D92-96E5-3075842B102C", 93, 1482154944, "391130", 1482154944, "391130", null, "NC", "Payment for pneumonia patients", "PAYM_30_PN", "25", "71", "6", "5", null, "2012-07-01T00:00:00", "2015-06-30T00:00:00" ]
+, [ 94, "2298477D-A8B6-4DEA-878B-D76E8920F07F", 94, 1482154944, "391130", 1482154944, "391130", null, "ND", "Payment for heart attack patients", "PAYM_30_AMI", "0", "7", "0", "30", null, "2012-07-01T00:00:00", "2015-06-30T00:00:00" ]
+, [ 95, "96386B39-AFFE-4892-B7DE-1FC77FC7209F", 95, 1482154944, "391130", 1482154944, "391130", null, "ND", "Payment for heart failure patients", "PAYM_30_HF", "2", "17", "1", "23", null, "2012-07-01T00:00:00", "2015-06-30T00:00:00" ]
+, [ 96, "19555CDB-EA7A-43AB-B5C4-8CB6CA78C6C9", 96, 1482154944, "391130", 1482154944, "391130", null, "ND", "Payment for pneumonia patients", "PAYM_30_PN", "3", "27", "4", "10", null, "2012-07-01T00:00:00", "2015-06-30T00:00:00" ]
+, [ 97, "C9B1AA06-5672-426A-AD49-C008BB1A5E3F", 97, 1482154944, "391130", 1482154944, "391130", null, "NE", "Payment for heart attack patients", "PAYM_30_AMI", "0", "13", "6", "52", null, "2012-07-01T00:00:00", "2015-06-30T00:00:00" ]
+, [ 98, "A5E289B2-3775-4D65-B296-BB497E4976AB", 98, 1482154944, "391130", 1482154944, "391130", null, "NE", "Payment for heart failure patients", "PAYM_30_HF", "2", "33", "5", "45", null, "2012-07-01T00:00:00", "2015-06-30T00:00:00" ]
+, [ 99, "1BD18BDB-C470-4792-8173-456C3D7F7012", 99, 1482154944, "391130", 1482154944, "391130", null, "NE", "Payment for pneumonia patients", "PAYM_30_PN", "5", "56", "10", "15", null, "2012-07-01T00:00:00", "2015-06-30T00:00:00" ]
+, [ 100, "3A594C4D-8107-4268-ADBA-E81372D207C3", 100, 1482154944, "391130", 1482154944, "391130", null, "NH", "Payment for heart attack patients", "PAYM_30_AMI", "0", "16", "2", "8", null, "2012-07-01T00:00:00", "2015-06-30T00:00:00" ]
+, [ 101, "C6E0A329-DBF1-454C-82CD-E2F723D992B3", 101, 1482154944, "391130", 1482154944, "391130", null, "NH", "Payment for heart failure patients", "PAYM_30_HF", "0", "21", "3", "2", null, "2012-07-01T00:00:00", "2015-06-30T00:00:00" ]
+, [ 102, "E03CB3CA-291F-4028-BE58-AB885C3A9B30", 102, 1482154944, "391130", 1482154944, "391130", null, "NH", "Payment for pneumonia patients", "PAYM_30_PN", "1", "22", "3", "0", null, "2012-07-01T00:00:00", "2015-06-30T00:00:00" ]
+, [ 103, "C8EE1A2B-7EB5-4B11-86C4-9989267E32C1", 103, 1482154944, "391130", 1482154944, "391130", null, "NJ", "Payment for heart attack patients", "PAYM_30_AMI", "0", "26", "37", "1", null, "2012-07-01T00:00:00", "2015-06-30T00:00:00" ]
+, [ 104, "CC3F0AD8-7B47-4EA1-B4B3-BF39FFB03E79", 104, 1482154944, "391130", 1482154944, "391130", null, "NJ", "Payment for heart failure patients", "PAYM_30_HF", "1", "13", "49", "2", null, "2012-07-01T00:00:00", "2015-06-30T00:00:00" ]
+, [ 105, "64756981-2013-4145-A4C6-A085522861A1", 105, 1482154944, "391130", 1482154944, "391130", null, "NJ", "Payment for pneumonia patients", "PAYM_30_PN", "0", "39", "25", "1", null, "2012-07-01T00:00:00", "2015-06-30T00:00:00" ]
+, [ 106, "387147DA-ABEA-4706-9977-88B7CB9E461F", 106, 1482154944, "391130", 1482154944, "391130", null, "NM", "Payment for heart attack patients", "PAYM_30_AMI", "1", "11", "0", "25", null, "2012-07-01T00:00:00", "2015-06-30T00:00:00" ]
+, [ 107, "DF99D53D-4AD6-4CDF-98DE-863963A25E7A", 107, 1482154944, "391130", 1482154944, "391130", null, "NM", "Payment for heart failure patients", "PAYM_30_HF", "12", "18", "1", "9", null, "2012-07-01T00:00:00", "2015-06-30T00:00:00" ]
+, [ 108, "B23B8017-D233-42E8-AC4C-86417C2DBF72", 108, 1482154944, "391130", 1482154944, "391130", null, "NM", "Payment for pneumonia patients", "PAYM_30_PN", "17", "19", "1", "4", null, "2012-07-01T00:00:00", "2015-06-30T00:00:00" ]
+, [ 109, "CB1418B4-F25A-41E4-BA0A-3D7AF8AE3818", 109, 1482154944, "391130", 1482154944, "391130", null, "NV", "Payment for heart attack patients", "PAYM_30_AMI", "2", "14", "3", "11", null, "2012-07-01T00:00:00", "2015-06-30T00:00:00" ]
+, [ 110, "D631DB97-E2FF-4169-8356-53B78B4D3647", 110, 1482154944, "391130", 1482154944, "391130", null, "NV", "Payment for heart failure patients", "PAYM_30_HF", "4", "12", "10", "6", null, "2012-07-01T00:00:00", "2015-06-30T00:00:00" ]
+, [ 111, "E960D3C1-46F4-47C2-87C8-A82360085C47", 111, 1482154944, "391130", 1482154944, "391130", null, "NV", "Payment for pneumonia patients", "PAYM_30_PN", "5", "10", "12", "5", null, "2012-07-01T00:00:00", "2015-06-30T00:00:00" ]
+, [ 112, "53DA1D40-6828-47EB-A2E4-B4674573DB42", 112, 1482154944, "391130", 1482154944, "391130", null, "NY", "Payment for heart attack patients", "PAYM_30_AMI", "13", "110", "14", "31", null, "2012-07-01T00:00:00", "2015-06-30T00:00:00" ]
+, [ 113, "082F6EC6-265E-4B18-BC6B-F6E8AB27496E", 113, 1482154944, "391130", 1482154944, "391130", null, "NY", "Payment for heart failure patients", "PAYM_30_HF", "29", "96", "36", "12", null, "2012-07-01T00:00:00", "2015-06-30T00:00:00" ]
+, [ 114, "34370F67-AA40-4A5D-9C8D-0D3B88EFD43D", 114, 1482154944, "391130", 1482154944, "391130", null, "NY", "Payment for pneumonia patients", "PAYM_30_PN", "46", "107", "13", "8", null, "2012-07-01T00:00:00", "2015-06-30T00:00:00" ]
+, [ 115, "368D4D49-637D-4FF8-A2A7-84F792CA07AD", 115, 1482154944, "391130", 1482154944, "391130", null, "OH", "Payment for heart attack patients", "PAYM_30_AMI", "1", "86", "12", "54", null, "2012-07-01T00:00:00", "2015-06-30T00:00:00" ]
+, [ 116, "FB049786-67F4-4ED0-AE4C-CDB2BC7EAA9A", 116, 1482154944, "391130", 1482154944, "391130", null, "OH", "Payment for heart failure patients", "PAYM_30_HF", "2", "115", "29", "11", null, "2012-07-01T00:00:00", "2015-06-30T00:00:00" ]
+, [ 117, "39674F46-7AF4-4557-88AB-6CE6DD33F3E8", 117, 1482154944, "391130", 1482154944, "391130", null, "OH", "Payment for pneumonia patients", "PAYM_30_PN", "5", "114", "32", "6", null, "2012-07-01T00:00:00", "2015-06-30T00:00:00" ]
+, [ 118, "5B7A7C95-CE62-44F5-ADFC-A62E713B044D", 118, 1482154944, "391130", 1482154944, "391130", null, "OK", "Payment for heart attack patients", "PAYM_30_AMI", "6", "26", "0", "64", null, "2012-07-01T00:00:00", "2015-06-30T00:00:00" ]
+, [ 119, "012EF9F2-3C33-47B8-B92B-676825FD9723", 119, 1482154944, "391130", 1482154944, "391130", null, "OK", "Payment for heart failure patients", "PAYM_30_HF", "12", "61", "3", "38", null, "2012-07-01T00:00:00", "2015-06-30T00:00:00" ]
+, [ 120, "73223D6F-FB76-47F8-847B-0EDB121559E8", 120, 1482154944, "391130", 1482154944, "391130", null, "OK", "Payment for pneumonia patients", "PAYM_30_PN", "27", "68", "9", "10", null, "2012-07-01T00:00:00", "2015-06-30T00:00:00" ]
+, [ 121, "82FB76E6-1D30-458E-B9FA-ACAB685B68AF", 121, 1482154944, "391130", 1482154944, "391130", null, "OR", "Payment for heart attack patients", "PAYM_30_AMI", "5", "19", "0", "34", null, "2012-07-01T00:00:00", "2015-06-30T00:00:00" ]
+, [ 122, "A5E2975B-C89B-440F-9BB1-19CD4A0A8C47", 122, 1482154944, "391130", 1482154944, "391130", null, "OR", "Payment for heart failure patients", "PAYM_30_HF", "12", "38", "0", "8", null, "2012-07-01T00:00:00", "2015-06-30T00:00:00" ]
+, [ 123, "8AF560F0-0905-49DF-AF18-E0BEB1E800E8", 123, 1482154944, "391130", 1482154944, "391130", null, "OR", "Payment for pneumonia patients", "PAYM_30_PN", "23", "32", "0", "4", null, "2012-07-01T00:00:00", "2015-06-30T00:00:00" ]
+, [ 124, "EF282E07-58E5-4A60-BEC1-10333AAD9DFB", 124, 1482154944, "391130", 1482154944, "391130", null, "PA", "Payment for heart attack patients", "PAYM_30_AMI", "7", "102", "11", "36", null, "2012-07-01T00:00:00", "2015-06-30T00:00:00" ]
+, [ 125, "96D1E425-C53F-4CC9-B6DA-228D75709BD4", 125, 1482154944, "391130", 1482154944, "391130", null, "PA", "Payment for heart failure patients", "PAYM_30_HF", "6", "109", "35", "8", null, "2012-07-01T00:00:00", "2015-06-30T00:00:00" ]
+, [ 126, "215EDB68-2E4E-40D5-A632-91BF4D6CE755", 126, 1482154944, "391130", 1482154944, "391130", null, "PA", "Payment for pneumonia patients", "PAYM_30_PN", "17", "112", "23", "5", null, "2012-07-01T00:00:00", "2015-06-30T00:00:00" ]
+, [ 127, "4A095292-EC67-4D27-BA28-1C99F4FA1C2E", 127, 1482154944, "391130", 1482154944, "391130", null, "PR", "Payment for heart attack patients", "PAYM_30_AMI", "8", "7", "0", "32", null, "2012-07-01T00:00:00", "2015-06-30T00:00:00" ]
+, [ 128, "618ED5D4-37DB-49E8-A5C8-D59E8B24DA0D", 128, 1482154944, "391130", 1482154944, "391130", null, "PR", "Payment for heart failure patients", "PAYM_30_HF", "8", "13", "0", "27", null, "2012-07-01T00:00:00", "2015-06-30T00:00:00" ]
+, [ 129, "7D7CCF8B-76D7-4CE6-8CF8-1E5FCE45CC6B", 129, 1482154944, "391130", 1482154944, "391130", null, "PR", "Payment for pneumonia patients", "PAYM_30_PN", "8", "16", "0", "25", null, "2012-07-01T00:00:00", "2015-06-30T00:00:00" ]
+, [ 130, "FC3DED90-0EF4-48C6-A37B-CC4B03CEABC0", 130, 1482154944, "391130", 1482154944, "391130", null, "RI", "Payment for heart attack patients", "PAYM_30_AMI", "1", "7", "2", "0", null, "2012-07-01T00:00:00", "2015-06-30T00:00:00" ]
+, [ 131, "4F10932D-ACF5-4AC5-A052-C0ED33258B26", 131, 1482154944, "391130", 1482154944, "391130", null, "RI", "Payment for heart failure patients", "PAYM_30_HF", "1", "7", "2", "1", null, "2012-07-01T00:00:00", "2015-06-30T00:00:00" ]
+, [ 132, "B60D5116-0B32-4B29-9320-D0B4D863515C", 132, 1482154944, "391130", 1482154944, "391130", null, "RI", "Payment for pneumonia patients", "PAYM_30_PN", "0", "10", "0", "1", null, "2012-07-01T00:00:00", "2015-06-30T00:00:00" ]
+, [ 133, "38921326-9681-4044-AC50-A16BD7E7190C", 133, 1482154944, "391130", 1482154944, "391130", null, "SC", "Payment for heart attack patients", "PAYM_30_AMI", "6", "27", "1", "24", null, "2012-07-01T00:00:00", "2015-06-30T00:00:00" ]
+, [ 134, "486C6F7E-1AB2-424C-8F42-A509306F1BD3", 134, 1482154944, "391130", 1482154944, "391130", null, "SC", "Payment for heart failure patients", "PAYM_30_HF", "10", "41", "4", "5", null, "2012-07-01T00:00:00", "2015-06-30T00:00:00" ]
+, [ 135, "C36BCC6F-8FC2-4584-922D-43246893C1DD", 135, 1482154944, "391130", 1482154944, "391130", null, "SC", "Payment for pneumonia patients", "PAYM_30_PN", "13", "43", "3", "1", null, "2012-07-01T00:00:00", "2015-06-30T00:00:00" ]
+, [ 136, "01E40A15-2EBD-42B5-A33D-90DEA8D032E1", 136, 1482154944, "391130", 1482154944, "391130", null, "SD", "Payment for heart attack patients", "PAYM_30_AMI", "1", "10", "0", "30", null, "2012-07-01T00:00:00", "2015-06-30T00:00:00" ]
+, [ 137, "034C0B53-F2B2-4F02-9BA2-53558225387F", 137, 1482154944, "391130", 1482154944, "391130", null, "SD", "Payment for heart failure patients", "PAYM_30_HF", "3", "18", "0", "33", null, "2012-07-01T00:00:00", "2015-06-30T00:00:00" ]
+, [ 138, "CC775C98-35A3-427D-9FF9-1D6730A17DE6", 138, 1482154944, "391130", 1482154944, "391130", null, "SD", "Payment for pneumonia patients", "PAYM_30_PN", "7", "35", "2", "10", null, "2012-07-01T00:00:00", "2015-06-30T00:00:00" ]
+, [ 139, "A346F7BE-9129-4F2D-B352-F22ED7A39CE3", 139, 1482154944, "391130", 1482154944, "391130", null, "TN", "Payment for heart attack patients", "PAYM_30_AMI", "5", "49", "1", "52", null, "2012-07-01T00:00:00", "2015-06-30T00:00:00" ]
+, [ 140, "41CEA354-0004-40B4-B14E-8AE0E3069143", 140, 1482154944, "391130", 1482154944, "391130", null, "TN", "Payment for heart failure patients", "PAYM_30_HF", "6", "88", "5", "17", null, "2012-07-01T00:00:00", "2015-06-30T00:00:00" ]
+, [ 141, "10A02349-8A63-427C-A9FD-673840383D89", 141, 1482154944, "391130", 1482154944, "391130", null, "TN", "Payment for pneumonia patients", "PAYM_30_PN", "15", "82", "7", "12", null, "2012-07-01T00:00:00", "2015-06-30T00:00:00" ]
+, [ 142, "55468616-7377-48DF-8FED-316F08527ACF", 142, 1482154944, "391130", 1482154944, "391130", null, "TX", "Payment for heart attack patients", "PAYM_30_AMI", "10", "137", "28", "159", null, "2012-07-01T00:00:00", "2015-06-30T00:00:00" ]
+, [ 143, "575DC7FB-874C-4C46-884E-317DD1C8F1B2", 143, 1482154944, "391130", 1482154944, "391130", null, "TX", "Payment for heart failure patients", "PAYM_30_HF", "11", "178", "83", "95", null, "2012-07-01T00:00:00", "2015-06-30T00:00:00" ]
+, [ 144, "533507CF-060F-46AE-9D74-FA4E6CC4A329", 144, 1482154944, "391130", 1482154944, "391130", null, "TX", "Payment for pneumonia patients", "PAYM_30_PN", "32", "206", "78", "67", null, "2012-07-01T00:00:00", "2015-06-30T00:00:00" ]
+, [ 145, "C6403625-A1AC-4555-ADD2-2AD08C8A6C52", 145, 1482154944, "391130", 1482154944, "391130", null, "UT", "Payment for heart attack patients", "PAYM_30_AMI", "0", "12", "2", "19", null, "2012-07-01T00:00:00", "2015-06-30T00:00:00" ]
+, [ 146, "D249158B-4005-4B29-8B8A-01F7B0A3964B", 146, 1482154944, "391130", 1482154944, "391130", null, "UT", "Payment for heart failure patients", "PAYM_30_HF", "0", "21", "3", "18", null, "2012-07-01T00:00:00", "2015-06-30T00:00:00" ]
+, [ 147, "D694E0BD-FECF-4254-8E93-5C27D0A78D31", 147, 1482154944, "391130", 1482154944, "391130", null, "UT", "Payment for pneumonia patients", "PAYM_30_PN", "14", "23", "0", "5", null, "2012-07-01T00:00:00", "2015-06-30T00:00:00" ]
+, [ 148, "4CB3BF13-9CEC-4FE3-A0CB-1237F8268B4B", 148, 1482154944, "391130", 1482154944, "391130", null, "VA", "Payment for heart attack patients", "PAYM_30_AMI", "9", "51", "4", "15", null, "2012-07-01T00:00:00", "2015-06-30T00:00:00" ]
+, [ 149, "969AC811-E308-49FB-B3D8-9D36AF932415", 149, 1482154944, "391130", 1482154944, "391130", null, "VA", "Payment for heart failure patients", "PAYM_30_HF", "6", "64", "9", "2", null, "2012-07-01T00:00:00", "2015-06-30T00:00:00" ]
+, [ 150, "5F26BA96-8892-49A1-89E7-D8DBD9EC9E38", 150, 1482154944, "391130", 1482154944, "391130", null, "VA", "Payment for pneumonia patients", "PAYM_30_PN", "13", "62", "4", "4", null, "2012-07-01T00:00:00", "2015-06-30T00:00:00" ]
+, [ 151, "1D41C69D-F9F3-4274-94AE-74151D10619D", 151, 1482154944, "391130", 1482154944, "391130", null, "VI", "Payment for heart attack patients", "PAYM_30_AMI", "0", "1", "0", "1", null, "2012-07-01T00:00:00", "2015-06-30T00:00:00" ]
+, [ 152, "E6181C65-A9A2-40ED-9EDD-D3B7671E9BDC", 152, 1482154944, "391130", 1482154944, "391130", null, "VI", "Payment for heart failure patients", "PAYM_30_HF", "0", "2", "0", "0", null, "2012-07-01T00:00:00", "2015-06-30T00:00:00" ]
+, [ 153, "94AFCA52-7A64-4377-B602-A9FA8B57B55E", 153, 1482154944, "391130", 1482154944, "391130", null, "VI", "Payment for pneumonia patients", "PAYM_30_PN", "0", "1", "1", "0", null, "2012-07-01T00:00:00", "2015-06-30T00:00:00" ]
+, [ 154, "9EA04E42-3382-464D-9992-55556D99FF7A", 154, 1482154944, "391130", 1482154944, "391130", null, "VT", "Payment for heart attack patients", "PAYM_30_AMI", "0", "11", "0", "3", null, "2012-07-01T00:00:00", "2015-06-30T00:00:00" ]
+, [ 155, "C636C0DB-68F5-4E48-B749-BF797971452F", 155, 1482154944, "391130", 1482154944, "391130", null, "VT", "Payment for heart failure patients", "PAYM_30_HF", "2", "11", "0", "1", null, "2012-07-01T00:00:00", "2015-06-30T00:00:00" ]
+, [ 156, "3E5C2212-725D-4F6D-8BEB-D8943B54FEA7", 156, 1482154944, "391130", 1482154944, "391130", null, "VT", "Payment for pneumonia patients", "PAYM_30_PN", "7", "6", "1", "0", null, "2012-07-01T00:00:00", "2015-06-30T00:00:00" ]
+, [ 157, "87DD6553-F1A9-4C05-9266-679958BEBBF0", 157, 1482154944, "391130", 1482154944, "391130", null, "WA", "Payment for heart attack patients", "PAYM_30_AMI", "7", "34", "4", "34", null, "2012-07-01T00:00:00", "2015-06-30T00:00:00" ]
+, [ 158, "826F3643-7F69-4D60-9333-561E35E27EF2", 158, 1482154944, "391130", 1482154944, "391130", null, "WA", "Payment for heart failure patients", "PAYM_30_HF", "11", "49", "2", "24", null, "2012-07-01T00:00:00", "2015-06-30T00:00:00" ]
+, [ 159, "04A8B546-6BF1-40B0-8505-17C3CF298103", 159, 1482154944, "391130", 1482154944, "391130", null, "WA", "Payment for pneumonia patients", "PAYM_30_PN", "10", "58", "5", "15", null, "2012-07-01T00:00:00", "2015-06-30T00:00:00" ]
+, [ 160, "31DC5BF5-64E9-4DB1-903A-E365C272D6C7", 160, 1482154944, "391130", 1482154944, "391130", null, "WI", "Payment for heart attack patients", "PAYM_30_AMI", "0", "48", "3", "68", null, "2012-07-01T00:00:00", "2015-06-30T00:00:00" ]
+, [ 161, "EB154FDC-178E-4C14-9FA3-12051829E5BD", 161, 1482154944, "391130", 1482154944, "391130", null, "WI", "Payment for heart failure patients", "PAYM_30_HF", "11", "91", "3", "15", null, "2012-07-01T00:00:00", "2015-06-30T00:00:00" ]
+, [ 162, "AF36F74E-4B3C-4EFF-A72C-2C7138D1B7D4", 162, 1482154944, "391130", 1482154944, "391130", null, "WI", "Payment for pneumonia patients", "PAYM_30_PN", "20", "90", "4", "6", null, "2012-07-01T00:00:00", "2015-06-30T00:00:00" ]
+, [ 163, "991BB3F4-A346-4DB1-A176-D7817A7FC9C3", 163, 1482154944, "391130", 1482154944, "391130", null, "WV", "Payment for heart attack patients", "PAYM_30_AMI", "3", "19", "2", "25", null, "2012-07-01T00:00:00", "2015-06-30T00:00:00" ]
+, [ 164, "C6A9F26A-0BC7-4E70-A12C-94BBA9FA04C8", 164, 1482154944, "391130", 1482154944, "391130", null, "WV", "Payment for heart failure patients", "PAYM_30_HF", "5", "30", "2", "12", null, "2012-07-01T00:00:00", "2015-06-30T00:00:00" ]
+, [ 165, "8FA8E063-F657-4717-AF2F-2E03393C2D66", 165, 1482154944, "391130", 1482154944, "391130", null, "WV", "Payment for pneumonia patients", "PAYM_30_PN", "7", "40", "1", "1", null, "2012-07-01T00:00:00", "2015-06-30T00:00:00" ]
+, [ 166, "06E3098E-B7C3-45AB-BDA1-FA04FBD1A1FF", 166, 1482154944, "391130", 1482154944, "391130", null, "WY", "Payment for heart attack patients", "PAYM_30_AMI", "0", "4", "0", "17", null, "2012-07-01T00:00:00", "2015-06-30T00:00:00" ]
+, [ 167, "42FDBBAF-9EFE-411C-BB55-2E087BC0EDEE", 167, 1482154944, "391130", 1482154944, "391130", null, "WY", "Payment for heart failure patients", "PAYM_30_HF", "1", "12", "0", "14", null, "2012-07-01T00:00:00", "2015-06-30T00:00:00" ]
+, [ 168, "F22D1C0B-DBDC-4708-9B90-2E7CF44AE6A5", 168, 1482154944, "391130", 1482154944, "391130", null, "WY", "Payment for pneumonia patients", "PAYM_30_PN", "8", "14", "1", "4", null, "2012-07-01T00:00:00", "2015-06-30T00:00:00" ]
+ ]
+}
